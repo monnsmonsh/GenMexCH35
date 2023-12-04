@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(209, 146, 51);
+}
+p{
+    background-color: turquoise;
+    color:rebeccapurple;
+    font-weight: 100;
+}
+.Namelist{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+.listas{
+    font-size: larger;
+    
+    
+}

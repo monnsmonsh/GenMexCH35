@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro ccs3</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    <!--Tenemos tres formas distintas de agregar estilos a un documento html
+        inline (en linea)
+    
+        Para trabajar con los estilos in line utlilizamos la palabra reservada style y con esto ya estamos dando la instrccion de lo que queremos añadir 
+        Tiene mayor jerarquia sobre la etiqueta style
+
+    -->
+    <h1>inline</h1>
+    <p style="background-color: bisque; color: blueviolet;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ratione excepturi nobis culpa sapiente! Accusantium inventore minus doloremque consequatur, repellat consequuntur. Eaque vero ipsam asperiores unde minus mollitia quis dolorum.</p>
+    <!--Uti1izando la etiquete <style>
+        Cuando usamos los estilo de la etiqueta
+        style, "separamos"los estilos de etiqueta, para
+        mantener un código limpio y claro
+    -->
+    <style>
+        body{
+            background-color: brown;
+        }
+    </style>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, autem qui. Eligendi ipsam totam quo omnis, expedita maiores modi doloremque deleniti enim fugiat dolore repudiandae cupiditate aut tempora facilis ut.</p>
+
+    <!--Referencia a un docuemtno de estilos externos (buena practica)
+        codigo mas limpio
+        codigo mas entendible
+        velocidad de lectura en nuestra pagina
+        escabilidad
+        
+        utiliar estilos de un doc esternos
+    -->
+    
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius ducimus nam ullam maxime quas sint, esse tempore, veritatis debitis possimus aut harum officia voluptatibus. Dolores omnis accusamus nostrum in repellendus!</p>
+
+    <!--
+        todos pertenecemos a la clase CH35
+        nuestro id seria nuestro nombre
+        la palabra reservada class(.)
+        la palabra reservada id(#)
+    -->
+    
+    <h2 class="CH35" id="Rey">Rey</h2>
+    <h2 class="CH3S" id="Rene">Rene</h2>
+    <h2 class="CH35" id="Marco">Marco</h2>
+
+    <!--
+        El modelo de caja nos permite establece el diseño de nuestros sitios web,
+        ya que hace que nuestros elementos se presenten en formas rectangulares y
+        de esta forma podemos modificar el aspecto, tamaño, diseño, etc.
+
+    -->
+    <div>
+        <h3>casa uno</h3>
+    </div>
+
+    <div class="casa2">
+        <h3>Casa dos</h3>
+    </div>
+
+
+</body>
+</html>

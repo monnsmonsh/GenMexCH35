@@ -1,0 +1,21 @@
+:root {
+    /* --name -var */
+    --font-primary: 'Poppins', sans-serif;
+    --color-primary: #A60311;
+    --color-secondary: #D9042B;
+    --color-text-primary: #D9CCB4;
+    --color-text-secondary: #D98E04;
+    --color-background: #590219;
+    --color-light: #F2F2F2;
+    --color-dark: #070C26;
+}
+body{
+	background-color: var(--color-background);
+	color: var(--color-light);
+}
+h2{
+	font-family:var(--font-primary);
+}
+h3{
+	font-family:var(--font-primary);
+}

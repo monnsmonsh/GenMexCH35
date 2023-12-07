@@ -12,10 +12,191 @@
 body{
 	background-color: var(--color-background);
 	color: var(--color-light);
-}
-h2{
 	font-family:var(--font-primary);
 }
-h3{
-	font-family:var(--font-primary);
+
+.position{
+	width: 100px;
+	height: 100px;
+	background-color: var(--color-dark);
+}
+
+#static{
+	position: static;
+	top: 20px;
+	bottom: 20px;
+	left: 20px;
+	right: 20px;
+	background-color: var(--color-text-secondary);
+}
+
+/*Es posicionada de forma relativa al elemento anterior o posicion origial, si per mite propiedade top buitom lef*/
+#relative{
+	position: relative;
+	top:  50px;
+	left: 200px;;
+	background-color: var(--color-primary);
+}
+
+/*se posiciona al ancestro mas cercano y no respector al viweport*/
+#absolute{
+	position: absolute;
+	top:20px;
+	left: 20px;
+
+	background-color: var(--color-light);
+	color:var(--color-dark);
+}
+/*nos permite manter elemento de manera fija en viewpoet*/
+
+/*.fixed{
+	left: 350px;
+	top: 500px;
+	position: fixed;
+	border-color: aquamarine;
+}*/
+#chat{
+	position: fixed;
+	top: 520px;
+	left: 370px;
+	width: 60px;
+	height: 60px;
+}
+#whatsapp-icon{
+	width: 100%;
+	/*
+	width: 3rem;
+	height: 3rem;*/
+}
+
+.display-inline{
+	width: 100px;
+	height: 100px;
+	background-color: var(--color-text-primary);
+	color: var(--color-dark);
+	text-align: center;
+	margin: 2px;
+}
+.display{
+	display: inline;
+
+
+}
+
+.display-block{
+	/*display: block;*/
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	background-color: var(--color-secondary);
+	text-align: center;
+	margin: 2px;
+}
+@media (max-width:700px) {
+	.display-none{
+		display: none;
+	}
+}
+
+/*Display flex. Me permite trabajar de manera flexible con elementos anidados dentro de un ancestro. El flexbox se aplica en el container y tiene efecto sobre los hijos.
+Por default, la dirección de flex es en filas (row).
+Vamos a poder acceder a diversas propiedades para modificar el comportamiento de los elementos.
+    > - flex-direction: column, column-reverse, row, row-reverse
+	> - flex-wrap: wrap, nowrap, wrap-reverse
+	> - justify-content:center, flex-start, flex-end, space between, space-around
+	> - align-item: star,end, center
+	*/
+.container {
+	display: flex;
+	/*flex-direction: row-reverse;*/
+    flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	
+	width: auto;
+    height: 350px;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: var(--color-text-secondary);
+
+}
+
+.display-flex {
+    width: 100px;
+    height: 80px;
+    margin: 5px;
+    padding: 2px;
+    text-align: center;
+    background-color: var(--color-dark);
+    border-radius: 6px;
+}
+.display-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#item-6{
+	align-self: flex-start;
+}
+/*
+ Estilos grid
+*/
+.grid{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto auto;
+	gap: 20px;
+
+	padding: 10px;
+}
+
+.display-grid{
+	background-color: var(--color-text-secondary);
+	border-radius: 3px;
+	padding: 20px;
+	text-align: center;
+	border: solid var(--color-text-primary) 1px;
+}
+
+
+/*
+*/
+
+
+.container-1 {
+	display: grid;
+    width: auto;
+    height: 500px;
+    border: solid var(--color-text-primary) 0.7px;
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+	
+}
+
+header {
+    background-color:darkviolet;
+	grid-area: head;
+}
+
+nav {
+    background-color:darkslategray;
+}
+
+aside {
+    background-color: seagreen;
+}
+
+section {
+    background-color: peru;
+}
+
+article {
+    background-color: tomato;
+}
+
+footer {
+    background-color: deepskyblue;
 }

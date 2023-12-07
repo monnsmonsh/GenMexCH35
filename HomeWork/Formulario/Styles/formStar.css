@@ -1,0 +1,110 @@
+:root {
+    /* --name -var */
+    --font-primary: 'Nunito Sans', sans-serif;
+    --font-secondary:'Poppins', sans-serif;
+}
+
+body{
+    background-color: #ffffff;
+    font-family:var(--font-primary);
+}
+.login-box{
+    position:relative;
+    margin: 100px auto;
+    width: 520px;
+    height: 380px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 3px rgba(0.3,0.3,0.3,0.3);
+}
+
+.lb-header{
+    position:relative;
+    color: #000000;
+    font-size: x-large;
+    margin: 5px 5px 10px 5px;
+    padding-bottom:10px;
+    border-bottom: 1px solid #eee;
+    text-align:center;
+    height:28px;
+}
+
+
+
+.social-login{
+  position:relative;
+  float: left;
+  width: 100%;
+  height:auto;
+  padding: 10px 0 15px 0;
+  border-bottom: 1px solid #eee;
+}
+.social-login a{
+  position:relative;
+  float: left;
+  width:calc(40% - 8px);
+  text-decoration: none;
+  color: #333;
+  border: 1px solid rgba(0,0,0,0.05);
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin: 0 3%;
+  text-align:center;
+}
+.social-login a img{
+  position: relative;
+  float: left;
+  width: 20px;
+  top: 2px;
+}
+
+.email-login{
+  position:relative;
+  float: left;
+  width: 100%;
+  height:auto;
+  margin-top: 20px;
+  text-align:center;
+}
+.u-form-group{
+  width:100%;
+  margin-bottom: 10px;
+}
+.u-form-group input[type="email"],
+.u-form-group input[type="password"]{
+  width: calc(50% - 22px);
+  height:45px;
+  outline: none;
+  border: 1.3px solid #ddd;
+  padding: 0 10px;
+  border-radius: 5px;
+  color: #333;
+  font-size:0.8rem;
+  -webkit-transition:all 0.1s linear;
+  -moz-transition:all 0.1s linear;
+  transition:all 0.1s linear;
+}
+
+.u-form-group button{
+  width:50%;
+  background-color: #601cb9;
+  border: none;
+  outline: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  padding: 14px 0;
+  border-radius: 2px;
+  text-transform: uppercase;
+}
+
+.forgot-password{
+  width:50%;
+  text-align: left;
+  text-decoration: underline;
+  color: #888;
+  font-size: 0.75rem;
+}

@@ -161,7 +161,6 @@ console.log(veridicacion);
     Cuando usar if-else u cuando switch?
     if-else : Cuando necesitemos tomar decisiones bajo condiciones mas flexibles.
     Switch: cuando tengamos un conjuto fijo de valores para comparar un expresion.
-    
 
  */
 

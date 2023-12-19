@@ -102,5 +102,5 @@ for(i=2;i<=numero;i++){
     fibo1 = fibo2 - fibo1;
 }
 //System.out.println();
-console. log() ;
+console.log() ;
 

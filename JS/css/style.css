@@ -1,5 +1,7 @@
 body{
     background-color: bisque;
+    color: grey;
+    font-family: 'Karla', sans-serif;
 }
 .bodyform{
     margin: 10%;
@@ -27,23 +29,53 @@ body{
     width: 30%;
 }
 
-/*Sizes* */
-.p1{
-    width: 100%;
+  
+
+a {
+    text-decoration: none;
+    font-family: 'Karla', sans-serif;
+    color: #2D4B73;
+    font-size: 20px;
+    font-weight: 500;
+    border: dotted crimson 0.2em;   
 }
-.p2{
-    width: 50%;
-}
-.p3{
-    width: 30%;
-	margin: 0;
-}
-.mg{
-    width: 90%;
+#card-btn {
+    background-color: coral;
+    border: none;
+    color:lightblue;
+    padding: 8px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
 }
 
-table {
-    width: 100%;
-    border: 3px;
-  }
-  
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#name, #email-input {
+    height: 25px;
+    padding: 5px;
+}
+
+#btn-main {
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.profile {
+    background-color:blueviolet ;
+    border-radius: 5px;
+    color: white;
+    border: solid coral 1px;
+    text-align: center;
+    padding: 20px;
+}
+
+

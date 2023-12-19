@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>DOM</h1>
+    <!-- Vamos a crear 5 elemento: h1.titles, h2.tiltes, h3.title y div#dif-->
+
+    <h1 class="title" id="title1">Dom Manipulation</h1>
+    <h2 class="title" id="title2">JavaScript 06</h2>
+    <h3 class="title" id="title3">EL Dom es un API para minipulat HTML</h3>
+    <h3 class="title" id="title4">Usa nodos para acceder, modificar y eliminacion</h3>
+
+    <div id="dif">
+        <a href="./pages/app.html"> Vamos a app html</a>
+    </div>
+    <hr>
+
+    <!--Buton hidden-->
+    <button id="card-btn">Mostrar/Ocultar elementos</button>
+    
+    <!--Card Profile-->
+    <div class="container" id="container-div">
+        <div class="main container">
+            <h2>Eventos</h2>
+            <!--fomr-->
+            <label for="name">Username</label>
+            <input type="text" name="name" id="name" placeholder="Escribe tu nombre de usuario">
+            <label for="email">email</label>
+            <input type="email" name="email" id="email-input" placeholder="Escribe tu email">
+            <button id="btn-main">Actualizar perfil</button>
+        </div>
+        <div class="profile">
+            <h2 id="username"></h2>
+            <h3 id="age"></h3>
+            <p id="email"></p>
+            <ul id="fav-films"></ul>
+        </div>
+
+        <br> <br>
+
+    </div>
+
+    
+    <script src="./src/js-06_Dom.js"></script>
+    <script src="./src/button.js"></script>
+    <script src="./src/card.js"></script>
+    
+    
+</body>
+</html>

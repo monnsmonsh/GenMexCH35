@@ -1,0 +1,31 @@
+/*
+Estilos para el archivo bootstrap.html
+
+Estilos para el cuerpo y el Titular principal de la pagina
+Agregamos estilos con el selector:
+(#) - para Id
+(.)- para clases
+(elemento)nombre de la etiqueta- para elementos especificos
+([attribute]):para elementos que tienen un atributo específico, independientemente de su valor.*/
+
+body{
+    background-color: rgb(226, 216, 197);
+}
+
+h1, h2{
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.col{
+    color: aliceblue;
+    background-color:darkblue;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}

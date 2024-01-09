@@ -5,6 +5,10 @@ import Main from './components/Main'
 import Button from './components/Button'
 import Products from './components/Products'
 
+import Card from './components/Card'
+import List from './components/List'
+import Buttons from './components/Buttons'
+
 function App() {
   const imgFashion ="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/82/6142201/1.jpg?2933";
   const imgDark ="https://ng.jumia.is/unsafe/fit-in/300x300/filters:fill(white)/product/01/241417/1.jpg?6747";
@@ -33,6 +37,16 @@ function App() {
         description="Casual Tenis"
         price="$3290"
       />
+
+      {/**
+       * Aqui ira 
+       */}
+       <Card/>
+       <br></br>
+       <List/>
+       <br></br>
+       
+       <Buttons/>
     </>
   )
 }

@@ -18,8 +18,9 @@ public class Productos {
 		String skudProduct;
 		String nameProduct;//incializando de manera global
 		String salir;
+		System.out.println("---------------------");
 		System.out.println("Tiendida 'LA ESQUINA'");
-		System.out.println("Escribe 'Salir' para finalizar");
+		System.out.println("---------------------");
 		do {
 			System.out.println("Ingresa el sku del producto.");
 			skudProduct = scanner.nextLine();//Invocando de manera local

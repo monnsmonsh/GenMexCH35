@@ -35,7 +35,7 @@ public class Productos {
 			}
 			//
 		
-		}while(!salir.equals("y") || !salir.equals("y")  );
+		}while(!salir.equals("y"));
 	
 		for(Map.Entry<String, String> entry: Products.entrySet()) {
 			//Mostrar la clave y el valor de manera individual para su manipulacion

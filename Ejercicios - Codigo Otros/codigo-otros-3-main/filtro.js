@@ -8,7 +8,7 @@ const productos = [
     {nombre: "Zapato rojo", tipo: "zapato", color: "rojo", img: "./zapato-rojo.jpg"}
 ];
 
-const listProduct = document.getElementById("lista-de-productos");
+const listProduct = document.getElementById("listProductos");
 const inputFiltro = document.getElementById("filtro-input");
 
 // Función para mostrar productos mediant el dom

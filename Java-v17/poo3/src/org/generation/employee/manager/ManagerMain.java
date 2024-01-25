@@ -6,10 +6,14 @@ public class ManagerMain {
 		System.out.println(Fernanda);
 		
 		//Metdo calcular salario
-		//Fernanda.calcularSalario();
+		Fernanda.calcularSalario();
 		
-		double salarioFer = Fernanda.getSalarioBase();
-		System.out.println("El salario de " +Fernanda.getNombreCompleto()+" con puesto "+ Fernanda.getPuesto()+" con atiguedad de "+Fernanda.getAntiguedad()+" años tiene un salario de "+ salarioFer);
+		//Método calcular salario base heredado
+		double salarioBaseFer = Fernanda.salarioBase;
+		
+		//Método calcular salario polimórfico
+		double salarioFer = Fernanda.getSalario();
+		System.out.println("El salario base de " + Fernanda.getNombreCompleto() + " con posición de " + Fernanda.getPuesto() + " es de $" + salarioBaseFer + " pero posee una antigüedad de " + Fernanda.getAntiguedad() + " años, por lo tanto su salario incrementa a " + salarioFer);
 	}
-	
+
 }

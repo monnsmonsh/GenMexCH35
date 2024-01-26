@@ -14,4 +14,7 @@ abstract class Figura {
 	public void infoFigura() {
 		System.out.println("Esta es una figura");
 	}
+	
+	
+	
 }
